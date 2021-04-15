@@ -1,47 +1,60 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>MY FAVOURITE-3</title>
+    <title>My Persnol Apps</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#bio">About</a></li>
-        <li class="links"><a href="#myfavorite">My Favorite Hobby</a></li>
-        <li class="links"><a href="#work">My Work</a></li>
-        <li class="links"><a href="#inpiration">My Inpirration</a></li>
-        <li class="links"><a href="#contact">Contact</a></li>
-    </ul>
-        <section id="Welcome">
-        <img src="39998-web-development.gif">
-        <br>
-        <h1>My Favorite Hobby <span id="Coding">Coding</span></h1>
-        <br>
-        <p>I love coding</p>
-    </section>
-    <section id="bio">
-        <h1>About</h1>
-        <div class="line"></div>
-        <p>My hobby is coding and I like HTML part the most.When I am free I like to do coding.
-        </p>
-    </section>
-    <section id="myfavorite">
-        <h1>My Favorite Hobby</h1>
-        <div class="line"></div>
-        <iframe width="700" height="600"  src="https://www.primotoys.com/4-famous-programmers-coded-way-top/"></iframe>
-        <br>
-        <br>
-    <iframe width="700" height="600"  src="https://www.northeastern.edu/graduate/blog/most-popular-programming-languages/"></iframe>
-    </section>
-    <section id="work">
-        <h1>My Work</h1>
-        <div class="line"></div>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/idm808nlXxOF743xPX10D98W_tt1hglHPW38t7jA1Xo/embed"></iframe>
-        
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/CO4uluvboBMa3ZXcKZi1g51W6kB6ddGxyxTx5-hgIhk/embed"></iframe>
-    </section>
+    <div class="container">
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/idm808nlXxOF743xPX10D98W_tt1hglHPW38t7jA1Xo/embed"></iframe>
+
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/CO4uluvboBMa3ZXcKZi1g51W6kB6ddGxyxTx5-hgIhk/embed"></iframe> 
+                <h2>Click on the games to play</h2>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/vELOMtKFlq8mMZEbDdCnwl2BTw1MxyLER4CULyJc6I4" target="_blank">
+                                <img src="Math%20Quiz.png"></a>
+                            <div class="carousel-content">
+                                <p>Math Quiz</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a href="https://studio.code.org/projects/playlab/Gbtk9_yuhmAfEh3Cw0XY68JycDMqVrO2G1cH226wEpo" target="_blank">
+                                <img src="Dragon%20attak.png"></a>
+                            <div class="carousel-content">
+                                <p>Dragon Attak</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+            </div>
+            <section id="chatbot">
+                <h1>Chat Bots</h1>
+                <div class="line"></div>
+
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/f8326bcf-f854-4b9f-b6d0-d013ee5cfc57">
+                </iframe>
+
+                <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/857cffb0-62b7-4cfc-b733-8fd178efb9ff">
+                </iframe>
+            </section>
+    </div>
 </body>
 
 </html>
